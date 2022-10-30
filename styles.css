@@ -1,0 +1,46 @@
+@font-face {
+	font-family: 'JetbrainsMono';
+	src: url('fonts/JetBrainsMono-Regular.woff2') format('woff2'),
+		url('fonts/JetBrainsMono-Regular.ttf') format('truetype');
+}
+
+html {
+	background-color: rgb(255, 254, 194);
+}
+
+body {
+	color: #000;
+	font-family: 'JetbrainsMono';
+	font-size: 14px;
+	line-height: 30px;
+	margin: 0 auto;
+}
+
+H2 {
+	font-family: 'JetbrainsMono';
+	font-weight: bold;
+	font-size: 1.7em;
+	letter-spacing: 1px;
+}
+
+a {
+	color: #d7034e;
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul {
+	margin: 25px;
+	margin-left: -45px;
+	list-style-type: square;
+}
+
+li {
+	line-height: 24px;
+	padding: 5px;
+	font-size: 17px;
+	display: inline;
+}
