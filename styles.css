@@ -11,7 +11,7 @@ html {
 body {
   color: #000;
   font-family: "JetbrainsMono";
-  font-size: 14px;
+  font-size: 20px;
   line-height: 30px;
   margin: 0 auto;
 }
@@ -19,8 +19,10 @@ body {
 H2 {
   font-family: "JetbrainsMono";
   font-weight: bold;
-  font-size: 1.7em;
-  letter-spacing: 1px;
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin-left: -40px;
+  margin-top: 30px;
 }
 
 a {
@@ -32,15 +34,14 @@ a:hover {
   text-decoration: none;
 }
 
-ul {
-  margin: 25px;
-  margin-left: -45px;
-  list-style-type: square;
+.custom-list {
+  column-count: 4;
+  list-style-type: none;
+  padding: 10;
+  text-align: left;
 }
 
-li {
-  line-height: 24px;
-  padding: 5px;
-  font-size: 17px;
-  display: inline;
+.custom-list li {
+  list-style-type: square;
+  margin-bottom: 5px;
 }
