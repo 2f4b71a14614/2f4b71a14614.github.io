@@ -27,11 +27,11 @@ H2 {
 
 a {
   color: #d7034e;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .custom-list {
